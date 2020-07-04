@@ -33,13 +33,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Globals.hpp" />
 		<Unit filename="include/PlayerObj.hpp" />
 		<Unit filename="include/Projectile.hpp" />
 		<Unit filename="include/ScoreText.hpp" />
+		<Unit filename="include/Ship.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Globals.cpp" />
 		<Unit filename="src/PlayerObj.cpp" />
 		<Unit filename="src/Projectile.cpp" />
 		<Unit filename="src/ScoreText.cpp" />
+		<Unit filename="src/Ship.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
