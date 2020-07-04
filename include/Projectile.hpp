@@ -11,6 +11,7 @@ class Projectile : public sf ::Drawable {
 public:
     bool active = true;
     Projectile();
+    Projectile(float angle);
     void draw(sf::RenderTarget & target, sf::RenderStates states) const;
     void update();
     void setPosition(sf::Vector2f pos);
